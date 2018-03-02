@@ -59,7 +59,7 @@ body {
 }
 
 .navbar {
-  background-color: #f3e6ce;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
 }
 
 .btn {
@@ -95,7 +95,7 @@ body {
 }
 
 .border {
-  background-color: #111;
+  background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
   color: #fff;
   padding: 18px;
   font-size: 25px;

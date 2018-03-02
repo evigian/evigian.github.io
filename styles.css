@@ -112,6 +112,7 @@ body {
 }
 
 .contact {
+  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
   box-shadow: 5px 7px 4px #888;
 }
 

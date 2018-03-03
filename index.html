@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
-<html>
+<html lang="en">
 
 <head>
   <title> Portfolio page Evi Giannakou, made for the Nanodegree Scholarship at Udacity </title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#home">HOME</a></li>
-          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#about" data-toggle="modal" data-target="#evi">ABOUT</a></li>
           <li><a href="#featured-work">FEATURED WORK</a></li>
           <li><a href="#contact">CONTACT</a></li>
           <li class="dropdown">
@@ -62,13 +62,13 @@
     </div>
   </div>
 
- <section>
-  <div class="bgimg-2 img-responsive">
-    <div class="caption">
-      <span class="border">I live in Athens...</span>
+  <section>
+    <div class="bgimg-2 img-responsive">
+      <div class="caption">
+        <span class="border">I live in Athens...</span>
+      </div>
     </div>
-  </div>
- </section>
+  </section>
 
   <div id="featured-work" class="container">
     <div class="row">
@@ -135,9 +135,29 @@
           </div>
         </div>
       </div>
-     </div>
     </div>
+  </div>
 
+  <!-- Modal -->
+  <div class="modal fade" id="evi" tabindex="-1" role="dialog" aria-labelledby="aboutMe" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="aboutMe">About</h3>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive my-picture" src="https://image.ibb.co/jZSj2n/20160929_185322.jpg" alt="my picture">
+          <p class="text"> Hi, this is me, nice to meet you! </p>
+          <p class="text"> I come from Greece and I live in Athens. I have studied various subjects while I currently study, between others, Audio Visual Arts at the Ionian University in Corfu. I love learning new skills, enjoy travelling and discovering new places and
+            getting to know different cultures and life-styles. This portfolio page was created for the FEND Google Developer Nanodegree Scholarship at Udacity and will be updating during the course. </p>
+          <p class="text"> So, stay tuned to see more...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Modal -->
   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="kapnikarea" aria-hidden="true">
@@ -252,13 +272,13 @@
     </div>
   </div>
 
-<section>
-  <div class="bgimg-3 img-responsive">
-    <div class="caption">
-      <span class="border">...and I study in Corfu!</span>
+  <section>
+    <div class="bgimg-3 img-responsive">
+      <div class="caption">
+        <span class="border">...and I study in Corfu!</span>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!--contact form-->
   <div id="contact" class="container">
@@ -303,9 +323,9 @@
           <a href="https://codepen.io/evigiannakou/" class="fa fa-codepen fa-1x"></a>
         </div>
       </div>
-    <div class="row">
-      <div class="col-md-12">
-        <p class="text-center bottom">Made by Evi Giannakou with &#128151; for the FEND Google Developer Nanodegree Scholarship @Udacity</p>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center bottom">Made by Evi Giannakou with &#128151; for the FEND Google Developer Nanodegree Scholarship @Udacity</p>
         </div>
       </div>
     </div>

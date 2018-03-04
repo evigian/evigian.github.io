@@ -96,6 +96,43 @@ body {
   text-align: justify;
 }
 
+.bgimg-2 {
+  background-image: url("https://image.ibb.co/e49Wcc/20170420_201137.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://image.ibb.co/gvtpTm/20170204_152952.jpg");
+  min-height: 400px;
+}
+
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
 .btn {
   color: #000;
 }

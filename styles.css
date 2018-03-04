@@ -122,6 +122,7 @@ body {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 10px;
+  opacity: 0.8;
 }
 
 .caption {
@@ -130,6 +131,9 @@ body {
   top: 50%;
   width: 100%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #000;
 }
 
@@ -232,4 +236,3 @@ hr {
     transform: scale(1) rotateZ(360deg);
   }
 }
-© 2018 GitHub, Inc.
